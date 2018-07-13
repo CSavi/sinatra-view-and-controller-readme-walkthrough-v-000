@@ -13,7 +13,8 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
-    @friends = []# Write your code here!
+    @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']# Write your code here!
 
+    erb :friends
   end
 end
